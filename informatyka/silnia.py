@@ -7,3 +7,5 @@ def silnia(n):
     print(w)
 n = int(input("Jaką liczbe pragniesz zsilinić?"))
 silnia(n)
+
+#Ten program również był gotowy już w trakcie lekcji
