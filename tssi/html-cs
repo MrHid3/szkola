@@ -9,7 +9,7 @@ Cheatsheat dla HTML'a. Wszystkie znaczniki z tssi.
 <meta name="description" content=""> - opis strony
 <meta name="keywords" content=""> - słowa kluczowe
 <meta name="author" content=""> - autor
-<p> </p> - paragraf
+<p> </p> - 	paragraf
 <h1-h6> </h1-h6> - nagłówek, powinny być używane tylko raz oraz w kolejności rosnącej
 <em> </em> - zaznaczony tekst
 <strong> </strong> - mocniej zaznaczony tekst, praktycznie słowo kluczowe, opis strony
@@ -18,7 +18,7 @@ Cheatsheat dla HTML'a. Wszystkie znaczniki z tssi.
 <q> </q> - krótki cytat
 <blockquote> </blockquote> - dłuższy cytat
 <code> </code> - kod "programistyczny"
-<pre> </pre> - tekst preformatowany, wszystkie taby i spacje powinny zostać zachowane
+<pre> </pre> - 	tekst preformatowany, wszystkie taby i spacje powinny zostać zachowane
 <sup> </sup> - indeks górny
 <sub> </sub> - indeks dolny
 <i> </i> - italic - domyślnie kursywa
@@ -27,7 +27,12 @@ Cheatsheat dla HTML'a. Wszystkie znaczniki z tssi.
 <hr> - linia na szerokość strony
 <ins> </ins> - domyślnie podkreślenie
 <del> </del> - domyślnie przekreślenie
-
+<ul> </ul> - lista nieuporządkowana (tylko kropki przy każdym elemencie)
+<ol> </ol> - lista uporządkowana
+<li> </li> - element/podpunkt listy
+<dl> </dl> - lista definicji
+<dt> </dt> - definiowane słowo
+<dd> </dd> - definicja słowa
 
 
 
