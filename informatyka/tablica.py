@@ -15,5 +15,5 @@ n = int(input("Podaj liczbę:\t"))
 
 tablica(n)
 
-#Miałem ten program gotowy nal lekcji, przeyłam teraz, ponieważ
+#Miałem ten program gotowy na lekcji, przesyłam teraz, ponieważ
 #nie zdążyłem go panu pokazać
