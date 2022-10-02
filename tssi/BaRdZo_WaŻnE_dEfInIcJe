@@ -23,6 +23,4 @@ mamy znać:
 
 html - hipertekstowy język znaczników, język służący do tworzenia dokumentów hipertekstowych oraz opisywania struktury informacji zawartych wewnątrz strony
 
-znacznik html - część składni języka HTML zawierające informacje o strukturze i wyglądzie strony internetowej. Umieszczone w tagach dane wykorzystywane są również przez roboty pobierające zawartość witryny, w celu lepszego dopasowania wyników wyszukiwania do intencji użytkownika. Zamknięte w ostrych nawiasach (<>), nie możemy ich krzyżować, mogą być pojedyncze, kontenerowe blokowe lub kontenerowe liniowe
-
- 
+znacznik html - część składni języka HTML zawierające informacje o strukturze i wyglądzie strony internetowej. Umieszczone w tagach dane wykorzystywane są również przez roboty pobierające zawartość witryny, w celu lepszego dopasowania wyników wyszukiwania do intencji użytkownika. Zamknięte w ostrych nawiasach (<>), nie możemy ich krzyżować, mogą być pojedyncze, kontenerowe blokowe lub kontenerowe liniowe [DOCTYPE NIE JEST ZNACZNIKIEM] 
