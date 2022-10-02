@@ -16,7 +16,7 @@ ZASADY HTML bardzo ważne i jeżeli ich nie znasz potkniesz sie na krawężniku 
 - używaj cudzysłowów dla wszystkich atrybutów
 - uważaj ze znakami specjalnymi (ENCJE)
 
-enjce - ciąg znaków mówiących html-owi 'ej mordo bo jak włoże znak specjalny to wybuchniesz wiec włoże tu &lt; i ty masz wiedzieć że to <
+enjce - ciąg znaków mówiących html-owi 'ej mordo bo jak włoże znak specjalny to wybuchniesz wiec włoże tu &lt; i ty masz wiedzieć że to <'
 mamy znać:
 	&lt; - <
 	&gt; - >
