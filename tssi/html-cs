@@ -33,8 +33,18 @@ Cheatsheat dla HTML'a. Wszystkie znaczniki z tssi.
 <dl> </dl> - lista definicji
 <dt> </dt> - definiowane słowo
 <dd> </dd> - definicja słowa
-
-
+<style> </style> - wewnętrzy arkusz stylów, wkładay to w heada
+<table> </table> - tabela
+<tr> </tr> - wiersz tabeli
+<td> </td> - komórka tabeli
+<th </th> - komórka nagłówka
+<caption> </caption> - podpis tabeli\
+<thead> </thead> - nagłówek
+<tfoot> </tfoot> - stopka
+<tbody> </tbody> - treść tabeli
+<col> </col> - kolumna i grupa kolumn
+<td colspan="*"> </td> - rozciąga komórkę na * miejsc (szerokość)
+<td rowspan="*"> </td> rozszesza komórkę * miejsc (wysokość)
 
 
 
