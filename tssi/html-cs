@@ -9,6 +9,7 @@ Cheatsheat dla HTML'a. Wszystkie znaczniki z tssi.
 <meta name="description" content=""> - opis strony
 <meta name="keywords" content=""> - słowa kluczowe
 <meta name="author" content=""> - autor
+<meta name="generator" content=""> - aplikacja/generator w której stworzyliście stronę
 <p> </p> - 	paragraf
 <h1-h6> </h1-h6> - nagłówek, powinny być używane tylko raz oraz w kolejności rosnącej
 <em> </em> - zaznaczony tekst
@@ -38,7 +39,7 @@ Cheatsheat dla HTML'a. Wszystkie znaczniki z tssi.
 <tr> </tr> - wiersz tabeli
 <td> </td> - komórka tabeli
 <th </th> - komórka nagłówka
-<caption> </caption> - podpis tabeli\
+<caption> </caption> - podpis tabeli
 <thead> </thead> - nagłówek
 <tfoot> </tfoot> - stopka
 <tbody> </tbody> - treść tabeli
