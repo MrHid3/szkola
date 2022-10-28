@@ -38,9 +38,9 @@ else:
     plec = 0
 
 #Suma kontrolna
-suma_kon = 10 - ((int(pesel[0]) + int(pesel[1])*3 + int(pesel[2])*7 + int(pesel[3])*9 + int(pesel[4]) + int(pesel[5])*3 + int(pesel[6])*7 + int(pesel[7])*9 + int(pesel[8])*1 + int(pesel[9])*3) % 10) % 10
+suma_kon = 10 - ((int(pesel[0]) + int(pesel[1])*3 + int(pesel[2])*7 + int(pesel[3])*9 + int(pesel[4]) + int(pesel[5])*3 + int(pesel[6])*7 + int(pesel[7])*9 + int(pesel[8]) + int(pesel[9])*3) % 10)
 
-if pesel[10] != suma_kon:
+if int(pesel[10]) != suma_kon:
     print("nieprawidlowy pesel")
 
 #Podsumowanie
