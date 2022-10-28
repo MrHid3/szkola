@@ -21,7 +21,7 @@ ileSpolglosek = 0
 ileBialych = 0
 ileZnakow = 0
 ileWierszy = 0
-
+ileLiter = 0
 
 for letter in string.ascii_lowercase:
     alfabet.append(letter)
@@ -30,7 +30,11 @@ for letter in string.ascii_uppercase:
     ALFABET.append(letter)
 
 
-ile = 0
+print("Dla jakiej litery chcesz sprawdzić?")
+dana = input()
+ileLiter =  tekst.count(dana)
+print(f"Litera {dana} pojawia się {ileLiter} razy")
+
 for litera in alfabet+ALFABET:
         ile = tekst.count(litera)
         ileWszystkich += ile
@@ -100,4 +104,4 @@ print(ileSpolglosek, " spółgłosek,")
 print(ileBialych, " białych znaków,")
 print(ileZnakow, " znaków które nie są literami,")
 print(ileWierszy, " wierszy.")
-
+print(f"W nim też litera {dana} pojawia się {ileLiter} razy")
