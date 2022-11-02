@@ -46,9 +46,4 @@ Cheatsheat dla HTML'a. Wszystkie znaczniki z tssi.
 <col> </col> - kolumna i grupa kolumn
 <td colspan="*"> </td> - rozciąga komórkę na * miejsc (szerokość)
 <td rowspan="*"> </td> rozszesza komórkę * miejsc (wysokość)
-
-
-
-
-
-
+<link rel="stylesheet" href="plik.css"> - zaimportuj style z plik.css. Powinno być w headzie
