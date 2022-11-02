@@ -69,3 +69,13 @@ np.:
 im styl jest bliżej miejsca, które formatuje, tym jest ważniejszy w hierarchi formatowania (w przypadku konfliktów)
 
 jest więcej właściwości css niż znaczników html
+
+
+Hierarchia stylów (w przypadku zastosowania wielu różnych):
+- Styl lokalny
+- Rozciąganie style <span>
+- Wydzielone blocki <div>
+- Wewnętrzny arkusz stylów
+- Zewnętrzny arkusz stylów
+- Import arkusza stylów
+- Domyślne ustawienie przeglądarki

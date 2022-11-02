@@ -2,3 +2,7 @@ border: *px solid/dotted/? color; - krawędź czegoś
 color: kolor - kolor czegoś 
 font-weight: normal/100/900/bold - 'grubość' tekstu - od 100 do 900 lub normal lub bold, gdzie ormal to 400 a bold to 700
 background-color: kolor - kolor tła czegoś
+text-align: left/right/center/justify/inherit/left/right - "formatownanie" tekstu w jakąś stronę
+text-decoration: none/underline/overline/line-trought/blink(nie działa)/ - dekoracja tekstu
+font-family: "rodzina", "rodzina"..., rodzaj(np. serif, monospace) - ustaw czcionkę
+font-size - rozmiar czcionki; domyślnie 16px

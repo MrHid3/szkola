@@ -1,8 +1,10 @@
 p{
 	background-color:blue;
-	color: red;
+	color: white;
 	font-weight: bold;
 }
 body{
 	background-color: green;
+	color: white;
+	font-family: Arial, monospace;
 }
