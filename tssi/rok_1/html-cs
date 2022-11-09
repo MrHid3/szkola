@@ -49,3 +49,4 @@ Cheatsheat dla HTML'a. Wszystkie znaczniki z tssi.
 <link rel="stylesheet" href="plik.css"> - zaimportuj style z plik.css. Powinno być w headzie
 <img src="nazwa_pliku.roz" alt="napis kiedy nie ma obrazka" height="wysokość" width="szerokość">
 <znacznik title="tekst w dymku"></znacznik>  - atrybut nadający tekst dymkowi wyskakującymi po najechaniu na element
+<a href="link">tekst</a> - link do innej strony, obrazka, pliku, podstrony
