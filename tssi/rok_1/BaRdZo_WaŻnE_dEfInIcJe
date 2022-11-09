@@ -79,3 +79,6 @@ Hierarchia stylów (w przypadku zastosowania wielu różnych):
 - Zewnętrzny arkusz stylów
 - Import arkusza stylów
 - Domyślne ustawienie przeglądarki
+
+adresowanie względne - adresowanie względem miejsca w którym jest plik (np ../katalog/podkatalog/index.html)
+adresowanie bezwzględne - adresowanie niezależnie od miejsca umieszaczenie pliku (na Windowsie np. C:\Users\User\Dosktop\index.html, na linuxie np. /home/user/Desktop/index.html) NIE UŻYWAĆ

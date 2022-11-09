@@ -2,7 +2,41 @@ border: *px solid/dotted/? color; - krawędź czegoś
 color: kolor - kolor czegoś 
 font-weight: normal/100/900/bold - 'grubość' tekstu - od 100 do 900 lub normal lub bold, gdzie ormal to 400 a bold to 700
 background-color: kolor - kolor tła czegoś
-text-align: left/right/center/justify/inherit/left/right - "formatownanie" tekstu w jakąś stronę
-text-decoration: none/underline/overline/line-trought/blink(nie działa)/ - dekoracja tekstu
+text-align: left/right/center/justify/inherit/initial - "formatownanie" tekstu w jakąś stronę
+text-decoration: none/underline/overline/line-trought/blink(nie działa)/inherit/initial - dekoracja tekstu
 font-family: "rodzina", "rodzina"..., rodzaj(np. serif, monospace) - ustaw czcionkę
 font-size - rozmiar czcionki; domyślnie 16px
+
+
+---------------------------------------------------------------------------------------------------------------
+// JEDNOSTKI \\
+
+
+// BEZWZGLĘDNE \\
+
+cm - centymetr
+mm - milimetr
+in - cal (96 pikseli)
+px - pikesel (1/96 cala)
+pt - points(punkty?) (1/72 cala)
+pc - picas (12 pt lub 1/6 cala)
+
+\\ BEZWZGLĘDNE //
+
+// WZGLĘDNE \\
+
+em - relatywnie do rozmiaru czcionki (2em to dwa razy większe niż czcionka obecnie używanej czcionki)
+ex - relatywnie do wysokości liter obecnie używanej czcionki
+ch - relatywnie do szerokości "0" w obecnie użwanej czcionce
+rem - relatywnie do czcionki rodzica
+vw - 1% szerokości okna
+vh - 1% wysokości okna
+vmin - 1% mniejszej z długości lub wysokości okna
+vmax - 1% większej z długości lub wsokości okna
+% - relatywnie do rozmiaru rodzica
+
+\\ WZGLĘDNE //
+
+
+\\ JEDNOSTKI //
+---------------------------------------------------------------------------------------------------------------
