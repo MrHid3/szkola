@@ -1,2 +1,2 @@
 # szkola
-wszystko co grupa 2 robi na tssi, aitp, uisk i informatyce
+obydwoje wiemy po co tu jesteś. bierz co chcesz i uciekaj zanim się rozmyślę
