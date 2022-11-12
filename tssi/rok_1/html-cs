@@ -1,5 +1,6 @@
 Cheatsheat dla HTML'a. Wszystkie znaczniki z tssi.
 
+
 <!DOCTYPE html> - mówi przeglądarce, że dany plik to strona internetowa w danym standardzie html [TECHNICZNIE NIE ZNACNZIK JEŻELI PANI BY PYTAŁA]
 <html lang="PL"> </html> - mowi przeglądarce, że tekst pomiędzy to kod html'a, a strona jest po polsku
 <head< </head> - głowa strony
