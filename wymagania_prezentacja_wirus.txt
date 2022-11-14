@@ -1,0 +1,6 @@
+1. Strona tytułowa - imie i nazwisko, tytuł (duh)
+2. Działanie wirusa komputerowego
+3. Rodzaje typów wirusów
+4. Jak chronić się przed wirusami różnego rodzaju
+5. Antywirusy dostępne na rynku (można napisać własnego wirusa)
+6. Podsumowanie
