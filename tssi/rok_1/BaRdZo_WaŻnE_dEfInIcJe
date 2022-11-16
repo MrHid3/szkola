@@ -82,3 +82,19 @@ Hierarchia stylów (w przypadku zastosowania wielu różnych):
 
 adresowanie względne - adresowanie względem miejsca w którym jest plik (np ../katalog/podkatalog/index.html)
 adresowanie bezwzględne - adresowanie niezależnie od miejsca umieszaczenie pliku (na Windowsie np. C:\Users\User\Dosktop\index.html, na linuxie np. /home/user/Desktop/index.html) NIE UŻYWAĆ
+
+id:
+
+nie zaczynamy od cyfry
+jak najkrótsze
+deklarujemy jako <znacznik id="nazwaid">
+id może się odnosić wyłącznie do jednego elementu
+rozróżnia małe i duże litery (najlepiej pisz małymi, jest łatwiej)
+może się odnosić do innego pliku (<a href="innyplik.html#id>inny plik</a>)
+nimi tworzymy kotwice
+można go używać w css jako #id{}
+id są ważniejsze w przypadku konfliktu stylów ze znacznikiem (waga 1000)
+
+WAGI selektorów - im większa tym ważniejszy w przypadku konfilktu stylów
+znacznik - waga 1
+id - waga 1000

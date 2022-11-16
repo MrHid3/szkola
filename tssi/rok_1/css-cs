@@ -43,3 +43,66 @@ vmax - 1% większej z długości lub wsokości okna
 
 \\ JEDNOSTKI //
 ---------------------------------------------------------------------------------------------------------------
+
+
+każdy element ma:
+
+- zawartość (content)
+- margines wewnętrzny (padding)
+- obramowanie (border)
+- margines zewnętrzny (margin)
+
+margin - stylowanie marginesu: rozmiar styl kolor:
+
+- margin
+- margin-left
+- margin-right
+- margin-top
+- margin-bottom
+
+padding - stylowanie marginesu: rozmiar styl kolor;
+
+- padding
+- padding-left
+- padding-right
+- padding-top
+- padding-bottom
+
+border - stylowanie krawędzi: rozmiar styl kolor;
+
+- border
+- border-left
+- border-right
+- border-top/
+- border-bottom
+
+style: dotted solid double dashed ridge groove inset hidden none outset
+
+więcej nż jedna wartość dla różnych rozmiarów/kolorów/etc, np.:
+
+border-color: lewo+prawo góra+dół
+border-color: góra prawo+lewo dół
+border-color: góra prawo dół lewo (zgodnie ze wskazówami zegara)
+
+arkusz zerujący (zeruje domyślne ustawienia przeglądarki)
+
+* - wszystkie znaczniki
+*{
+margin: 0;
+padding: 0;
+}
+
+ul{
+	list-stylt-type: kropka czy kreska czy coś;
+}
+
+zadanie domowe:
+stworze witrynę internetową składającą się z:
+
+- strony głównej
+- dwóch podstron;
+- do formatowania witryny koniecznie użyj przynajmniej jednego zewnętrznego arkusza stylów
+- na każdej stronie internetowej umieść co najmniej 2-3 obrazki
+- pamiętaj o odpowiedniej strukturze plików
+- pamiętaj o tym, aby zarówno strona główna jak i podstrony były ze sobą spójne (ta sama gama kolorystyczna, powrót do wszystkich stron z każdej)
+- projekt na temat jednostek względnych i bezwzględnych
