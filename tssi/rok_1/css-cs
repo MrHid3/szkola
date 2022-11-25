@@ -76,7 +76,7 @@ border - stylowanie krawędzi: rozmiar styl kolor;
 - border-top/
 - border-bottom
 
-style: dotted solid double dashed ridge groove inset hidden none outset
+style: dotted solid double dashed ridge groove inset hidden outset none
 
 więcej nż jedna wartość dla różnych rozmiarów/kolorów/etc, np.:
 
@@ -93,16 +93,14 @@ padding: 0;
 }
 
 ul{
-	list-stylt-type: kropka czy kreska czy coś;
+	list-style-type: kropka czy kreska czy coś;
 }
 
-zadanie domowe:
-stworze witrynę internetową składającą się z:
+line-height: wysokość - wysokość wiersza
 
-- strony głównej
-- dwóch podstron;
-- do formatowania witryny koniecznie użyj przynajmniej jednego zewnętrznego arkusza stylów
-- na każdej stronie internetowej umieść co najmniej 2-3 obrazki
-- pamiętaj o odpowiedniej strukturze plików
-- pamiętaj o tym, aby zarówno strona główna jak i podstrony były ze sobą spójne (ta sama gama kolorystyczna, powrót do wszystkich stron z każdej)
-- projekt na temat jednostek względnych i bezwzględnych
+background-repeat: repeat-x repeat-y no-repeat - powtarzanie tła: poziomo/pionowo/wogóle
+
+background-attachment: scroll/fixed/local/initial/inherit - punkt zaczepenia tła
+
+background-position - pozycja tła na ekranie (center/left etc.)
+
