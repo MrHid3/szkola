@@ -96,12 +96,11 @@ ul{
 	list-style-type: kropka czy kreska czy coś;
 }
 
+
 line-height: wysokość - wysokość wiersza
-
 background-repeat: repeat-x repeat-y no-repeat - powtarzanie tła: poziomo/pionowo/wogóle
-
 background-attachment: scroll/fixed/local/initial/inherit - punkt zaczepenia tła
-
 background-position - pozycja tła na ekranie (center/left etc.)
-
-float - opływanie elementu
+float: right | left - opływanie elementu
+overflow hidden: - ukrywa element wychodzący poza pojemnik
+box-sizing: border-box - zawiera padding i border w wymiarach (x i y) tagu

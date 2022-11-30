@@ -39,7 +39,7 @@ Cheatsheat dla HTML'a. Wszystkie znaczniki z tssi.
 <table> </table> - tabela
 <tr> </tr> - wiersz tabeli
 <td> </td> - komórka tabeli
-<th </th> - komórka nagłówka
+<th> </th> - komórka nagłówka
 <caption> </caption> - podpis tabeli
 <thead> </thead> - nagłówek
 <tfoot> </tfoot> - stopka
@@ -51,5 +51,4 @@ Cheatsheat dla HTML'a. Wszystkie znaczniki z tssi.
 <img src="nazwa_pliku.roz" alt="napis kiedy nie ma obrazka" height="wysokość" width="szerokość">
 <znacznik title="tekst w dymku"></znacznik>  - atrybut nadający tekst dymkowi wyskakującymi po najechaniu na element
 <a href="link">tekst</a> - link do innej strony, obrazka, pliku, podstrony, adresu maila
-
-<header> <section> <article> <nav> <aside> <footer> - konkretnie nazwane divy
+<header> <section> <article> <nav> <aside> <footer> <main>- konkretnie nazwane divy
