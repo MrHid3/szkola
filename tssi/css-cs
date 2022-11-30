@@ -1,4 +1,0 @@
-border: *px solid/dotted/? color; - krawędź czegoś
-color: kolor - kolor czegoś 
-font-weight: normal/100/900/bold - 'grubość' tekstu - od 100 do 900 lub normal lub bold, gdzie ormal to 400 a bold to 700
-background-color: kolor - kolor tła czegoś

@@ -104,3 +104,4 @@ background-attachment: scroll/fixed/local/initial/inherit - punkt zaczepenia tł
 
 background-position - pozycja tła na ekranie (center/left etc.)
 
+float - opływanie elementu
