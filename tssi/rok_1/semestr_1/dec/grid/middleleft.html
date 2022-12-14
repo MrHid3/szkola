@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .hedder, .legger{
+            background-color: #AAAAAA;
+            height: 10vh;
+            grid-column-start: 1;
+            grid-column-end: 3;
+        }
+        .chest{
+            background-color: green;
+            height: 80vh;
+        }
+        article{
+            width: 80%;
+            display: grid;
+            grid-template-columns: 20% 80%;
+            margin: 0 auto;
+        }
+        .left{
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <article>
+        <div class="hedder"><p>lorem ipsum</p></div>
+        <div class="left"><p>lorem ipsum</p></div>
+        <div class="chest"><p>lorem ipsum</p></div>
+        <div class="legger"><p>lorem ipsum</p></div>
+    </article>
+</body>
+</html>

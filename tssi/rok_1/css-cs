@@ -104,3 +104,7 @@ background-position - pozycja tła na ekranie (center/left etc.)
 float: right | left - opływanie elementu
 overflow hidden: - ukrywa element wychodzący poza pojemnik
 box-sizing: border-box - zawiera padding i border w wymiarach (x i y) tagu
+
+display: grid - hello this is grid
+grid-template-columns: auto auto auto - ile dasz parametrów tyle będzie kolumn o danej szerokości
+grid-column-start/grid-column-end - element zaczyna się na x linii grida i kończy na y linii grida

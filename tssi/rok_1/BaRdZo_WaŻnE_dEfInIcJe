@@ -90,7 +90,7 @@ jak najkrótsze
 deklarujemy jako <znacznik id="nazwaid">
 id może się odnosić wyłącznie do jednego elementu
 rozróżnia małe i duże litery (najlepiej pisz małymi, jest łatwiej)
-może się odnosić do innego pliku (<a href="innyplik.html#id>inny plik</a>)
+może się odnosić do innego pliku (<a href="innyplik.html#id>inny plik</a>")
 nimi tworzymy kotwice
 można go używać w css jako #id{}
 id są ważniejsze w przypadku konfliktu stylów ze znacznikiem (waga 1000)
@@ -98,3 +98,4 @@ id są ważniejsze w przypadku konfliktu stylów ze znacznikiem (waga 1000)
 WAGI selektorów - im większa tym ważniejszy w przypadku konfilktu stylów
 znacznik - waga 1
 id - waga 1000
+klasa - waga 100
