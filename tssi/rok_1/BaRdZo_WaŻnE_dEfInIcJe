@@ -99,3 +99,5 @@ WAGI selektorów - im większa tym ważniejszy w przypadku konfilktu stylów
 znacznik - waga 1
 id - waga 1000
 klasa - waga 100
+
+favicon - ikonka obok nazwy strony

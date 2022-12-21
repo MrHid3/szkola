@@ -29,13 +29,16 @@ Cheatsheat dla HTML'a. Wszystkie znaczniki z tssi.
 <hr> - linia na szerokość strony
 <ins> </ins> - domyślnie podkreślenie
 <del> </del> - domyślnie przekreślenie
+
 <ul> </ul> - lista nieuporządkowana (tylko kropki przy każdym elemencie)
 <ol> </ol> - lista uporządkowana
 <li> </li> - element/podpunkt listy
 <dl> </dl> - lista definicji
 <dt> </dt> - definiowane słowo
 <dd> </dd> - definicja słowa
+
 <style> </style> - wewnętrzy arkusz stylów, wkładay to w heada
+
 <table> </table> - tabela
 <tr> </tr> - wiersz tabeli
 <td> </td> - komórka tabeli
@@ -47,8 +50,17 @@ Cheatsheat dla HTML'a. Wszystkie znaczniki z tssi.
 <col> </col> - kolumna i grupa kolumn
 <td colspan="*"> </td> - rozciąga komórkę na * miejsc (szerokość)
 <td rowspan="*"> </td> rozszesza komórkę * miejsc (wysokość)
+
 <link rel="stylesheet" href="plik.css"> - zaimportuj style z plik.css. Powinno być w headzie
+
 <img src="nazwa_pliku.roz" alt="napis kiedy nie ma obrazka" height="wysokość" width="szerokość">
+
 <znacznik title="tekst w dymku"></znacznik>  - atrybut nadający tekst dymkowi wyskakującymi po najechaniu na element
+
 <a href="link">tekst</a> - link do innej strony, obrazka, pliku, podstrony, adresu maila
+
 <header> <section> <article> <nav> <aside> <footer> <main>- konkretnie nazwane divy
+
+<map name="nazwa"> - do tworzenia mapy odsyłaczy, nie mam pojęcia co sie tutaj dzieje i w3schoolsy też nie
+<area shape="kształt" cords="ko,or,dy,na,ty" href="link" alt="alternatywa" title="tytuł"> - ta dzika warstwa ci jej map używa
+<link rel="icon" type="image/x-icon" href="link"> - zrób favicona

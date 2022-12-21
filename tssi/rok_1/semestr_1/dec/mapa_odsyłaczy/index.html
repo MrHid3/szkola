@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>demo tagu &lt;map&gt; i menu z jakiegoś powodyu</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon-32x32.png">
+    <style>
+        nav{
+            width: 15%;
+            background-color: #AAAAAA;
+            float: right;
+            height: 100vh;
+        }
+        article{
+            background-color: #CCCCCC;
+            width: 85%;
+            float: left;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+        }
+        #content{
+            width: 100%;   
+        }
+        ul, li{
+            margin: 0;
+            list-style-type: none;
+            font-size: 1.3em;
+        }
+        li:hover{
+            color: white;
+        }
+        img{
+            margin-top: 5%;
+        }
+    </style>
+</head>
+<body>
+    <div id="content">
+        <article>
+            <img usemap="#image-map" src="images/imedź.png" alt="no obrazek no" height="80%" width="80%">
+            <map name="image-map">
+                <area target="_blank" alt="rat" title="rat" href="https://www.youtube.com/watch?v=3X-iqFRGqbc" coords="526,0,526,163,533,171,534,353,522,393,894,402,1018,405,1080,414,1128,419,1169,427,1284,431,1289,109,1303,56,1298,41,1301,2" shape="poly">
+                <area target="_blank" alt="rick" title="rick" href="https://www.google.com/url?sa=t&amp;rct=j&amp;q=&amp;esrc=s&amp;source=web&amp;cd=&amp;cad=rja&amp;uact=8&amp;ved=2ahUKEwj6reLl5Yr8AhUhmIsKHfuXBPQQwqsBegQICRAF&amp;url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DdQw4w9WgXcQ&amp;usg=AOvVaw0aHtehaphMhOCAkCydRLZU" coords="502,390,511,363,509,180,499,161,504,0,2,3,2,405,63,392" shape="poly">
+                <area target="_blank" alt="hello there" title="hello there" href="https://www.google.com/url?sa=t&amp;rct=j&amp;q=&amp;esrc=s&amp;source=web&amp;cd=&amp;cad=rja&amp;uact=8&amp;ved=2ahUKEwj98en75Yr8AhX8isMKHZqdADgQwqsBegQICRAF&amp;url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DrEq1Z0bjdwc&amp;usg=AOvVaw0LtRx5TIDOgehS71NzYFNw" coords="1326,0,1328,42,1306,110,1309,432,1917,429,1918,0" shape="poly">
+                <area target="_blank" alt="reduta" title="reduta" href="https://www.google.com/url?sa=t&amp;rct=j&amp;q=&amp;esrc=s&amp;source=web&amp;cd=&amp;cad=rja&amp;uact=8&amp;ved=2ahUKEwjd7u6K5or8AhVKx4sKHfBJCKMQtwJ6BAgKEAI&amp;url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D-t2WyBTyvUo&amp;usg=AOvVaw00Fzo-qfIy5BU92ZSogrfU" coords="879,426,880,873,873,900,873,931,863,965,858,1073,0,1075,0,431,70,419" shape="poly">
+                <area target="_blank" alt="straight up tragedy" title="straight up tragedy" href="https://www.google.com/url?sa=t&amp;rct=j&amp;q=&amp;esrc=s&amp;source=web&amp;cd=&amp;cad=rja&amp;uact=8&amp;ved=2ahUKEwjspdex5or8AhWns4sKHR8UDdIQwqsBegQIBxAF&amp;url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D05dT34hGRdg&amp;usg=AOvVaw3Tcm7LdT1F4hnJ6DSjYyaD" coords="906,427,1041,436,1184,454,1915,458,1915,1078,884,1072" shape="poly">
+            </map>
+        </article>
+        <nav>
+            <ul>
+                <li>strona główna</li>
+                <li>menu</li>
+                <li>o nas</li>
+                <li>wsparcie</li>
+            </ul>
+        </nav>
+    </div>
+</body>
