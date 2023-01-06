@@ -4,6 +4,7 @@ using namespace std;
 
 void zamien(int &a, int &b){
     int pom = a;
+    a = b;
     b = pom;
 }
 
