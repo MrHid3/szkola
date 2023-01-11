@@ -3,8 +3,8 @@ Cheatshaet dla css'a. Wszystkie właściwości z tssi.
 
 border: *px solid/dotted/? color; - krawędź czegoś
 color: kolor - kolor czegoś 
-font-weight: normal/100/900/bold - 'grubość' tekstu - od 100 do 900 lub normal lub bold, gdzie ormal to 400 a bold to 700
 background-color: kolor - kolor tła czegoś
+font-weight: normal/100/900/bold - 'grubość' tekstu - od 100 do 900 lub normal lub bold, gdzie ormal to 400 a bold to 700
 text-align: left/right/center/justify/inherit/initial - "formatownanie" tekstu w jakąś stronę
 text-decoration: none/underline/overline/line-trought/blink(nie działa)/inherit/initial - dekoracja tekstu
 font-family: "rodzina", "rodzina"..., rodzaj(np. serif, monospace) - ustaw czcionkę
@@ -109,3 +109,30 @@ display: grid - hello this is grid
 grid-template-columns: auto auto auto - ile dasz parametrów tyle będzie kolumn o danej szerokości
 grid-column-start/grid-column-end - element zaczyna się na x linii grida i kończy na y linii grida
 text-transform: uppercase/lowercase/capitaliza - zamienia litery na duże/małe/pierwsze wielkie
+
+position: static (domyślne, top right left bottom nie działają), relative (działają), absolute(działają), fixed. sticky
+pozycjonowanie statyczne - elementy blokowe biorą całą szerokość i minimaną wysokość, zagnieżdżone pojawiają się w sobie a po sobie pod sobą, ma wpływ na pozostąłe elementy
+relatywne - elementy blokowe biorą całą szerokość i minimaną wysokość, zagnieżdżone pojawiają się w sobie a po sobie pod sobą, ma wpływ na pozostałe elementy, traktują go jakby nic sie nie działo pojawiają się o x relatywnie od miejsca gdzie byłyby domyślnie
+absolutne - elementy blokowe biorą całą szerokość i minimaną wysokość, zagnieżdżone pojawiają się w sobie a po sobie pod sobą, ma wpływ na pozostałe elementy, traktują go jakby go nie było, pozycjonuje się relatywnie do granic strony, bez top left right bottom pozycjonuje sie tam gdzie byłby jako static, jeżeli w elemencie nardzędnym jest position: relative to ustawiają się względem tego kontenera
+nie rób i position i float na jednym elemencie bo ona tak mówi i guess
+
+pozycjonowanie kontekstowe dotyczy elementów zagnieżdżonych
+
+arkusz meyera bo tak:
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	line-height: 1.4em;
+	vertical-align: baseline;
+	text-decoration: none;
+	outline: 0;
+	}
+koniec cytatu
+
+z-index - trzeci wymiar niechce mi sie tłumaczyć; nie może być position: static
+
+overflow: hidden - ukrywa to co wystaje za kontener
+visible - domyślne
+scroll - dodaje scrollbara żebyś se mógł reszte zobaczyć (tak właśnie zzasumowałem twój gender)
+auto - scroll sie pojawia tylko kiedy trzeba
