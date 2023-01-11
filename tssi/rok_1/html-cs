@@ -64,3 +64,5 @@ Cheatsheat dla HTML'a. Wszystkie znaczniki z tssi.
 <map name="nazwa"> - do tworzenia mapy odsyłaczy, nie mam pojęcia co sie tutaj dzieje i w3schoolsy też nie
 <area shape="kształt" cords="ko,or,dy,na,ty" href="link" alt="alternatywa" title="tytuł"> - ta dzika warstwa ci jej map używa
 <link rel="icon" type="image/x-icon" href="link"> - zrób favicona
+
+<span> - div ale nie element blokowy

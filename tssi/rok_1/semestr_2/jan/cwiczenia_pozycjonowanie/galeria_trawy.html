@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Galeria trawy</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            border: 0;
+            line-height: 1.4em;
+            vertical-align: baseline;
+            text-decoration: none;
+            outline: 0;
+            overflow: hidden;
+        }
+        body{
+            background-color: white;
+            margin: 0 auto;
+            width: 80%;
+        }
+        header{
+            height: 150px;
+            position: relative;
+            background-color: #a35d96;
+            color: #9700a3;
+            overflow: hidden;
+            min-width: 800px;
+        }
+        h1{
+            position: absolute;
+            top: 25%;
+            left: 15%;
+        }
+        #img{
+            position: absolute;
+            top: 0;
+            right: 0;
+        }
+        nav{
+            position: absolute;
+            bottom: 0;
+            left: 10%;
+        }
+        a{
+            background-color: white;
+            display: block;
+            border: 2px solid lightgreen;
+            border-bottom: none;
+            width: 10em;
+            height: 2em;
+            border-radius: 10px 10px 0 0;
+            text-align: center;
+            color: black;
+            margin: 0 3px;
+        }
+        ul {
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            grid-template-rows: auto;
+        }
+        .trawa{
+            z-index: 2;
+            position: absolute;
+            top: 20%;
+        }
+        .tekst{
+            z-index: 1;
+            display: block;
+            color: white;
+            background-color: #AAAAAA;
+            text-align: center;
+            width: 200px;
+            height: 200px;
+            position: absolute;
+            top: 20%;
+        }
+        .tekst:hover{
+            z-index: 3;
+        }
+        article{
+            background-color: #ff00b3;
+            position: relative;
+            height: 100%;
+            width: 80%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Galeria trawy</h1>
+        <img src="hat.png" width=130px height=140px id="img">
+        <nav>
+            <ul>
+                <li><a>Strona główna</a></li>
+                <li><a>Więcej trawek</a></li>
+                <li><a>O nas</a></li>
+                <li><a>Odwiedź nas</a></li>
+            </ul>
+        </nav>
+    </header>
+    <article>
+        <img src="rys1.jpg" width=200px height=200px class="trawa" style="left:20%">
+        <img src="rys2.jpg" width=200px height=200px class="trawa" style="right:20%">
+        <p class="tekst" style="left:20%">dużo tekstu dużo tekstu dużo tekstu dużo tekstu dużo tekstu dużo tekstu dużo tekstu dużo tekstu dużo tekstu
+            dużo tekstu dużo tekstu dużo tekstu dużo tekstu dużo tekstu dużo tekstu dużo tekstu dużo tekstu dużo tekstu
+            dużo tekstu </p>
+        <p class="tekst" style="right:20%;">dużo tekstu dużo tekstu dużo tekstu dużo tekstu dużo tekstu dużo tekstu dużo tekstu dużo tekstu dużo tekstu
+            dużo tekstu dużo tekstu dużo tekstu dużo tekstu dużo tekstu dużo tekstu dużo tekstu dużo tekstu dużo tekstu
+            dużo tekstu </p>
+    </article>
+</body>
+</html>
