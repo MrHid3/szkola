@@ -110,7 +110,7 @@ grid-template-columns: auto auto auto - ile dasz parametrów tyle będzie kolumn
 grid-column-start/grid-column-end - element zaczyna się na x linii grida i kończy na y linii grida
 text-transform: uppercase/lowercase/capitaliza - zamienia litery na duże/małe/pierwsze wielkie
 
-position: static (domyślne, top right left bottom nie działają), relative (działają), absolute(działają), fixed. sticky
+position: static (domyślne, top right left bottom nie działają), relative (działają), absolute(działają), fixed, sticky
 pozycjonowanie statyczne - elementy blokowe biorą całą szerokość i minimaną wysokość, zagnieżdżone pojawiają się w sobie a po sobie pod sobą, ma wpływ na pozostąłe elementy
 relatywne - elementy blokowe biorą całą szerokość i minimaną wysokość, zagnieżdżone pojawiają się w sobie a po sobie pod sobą, ma wpływ na pozostałe elementy, traktują go jakby nic sie nie działo pojawiają się o x relatywnie od miejsca gdzie byłyby domyślnie
 absolutne - elementy blokowe biorą całą szerokość i minimaną wysokość, zagnieżdżone pojawiają się w sobie a po sobie pod sobą, ma wpływ na pozostałe elementy, traktują go jakby go nie było, pozycjonuje się relatywnie do granic strony, bez top left right bottom pozycjonuje sie tam gdzie byłby jako static, jeżeli w elemencie nardzędnym jest position: relative to ustawiają się względem tego kontenera
@@ -130,7 +130,7 @@ arkusz meyera bo tak:
 	}
 koniec cytatu
 
-z-index - trzeci wymiar niechce mi sie tłumaczyć; nie może być position: static
+z-index - dodaje trzeci wymiar; elementy o wyższej wartości pokażą się nad elementami o niższej wartości ; nie może być position: static
 
 overflow: hidden - ukrywa to co wystaje za kontener
 visible - domyślne

@@ -103,3 +103,6 @@ klasa - waga 100
 favicon - ikonka obok nazwy strony
 
 sementyczna struktura strony - używanie divów nazwanych wcześniej zamiast tworzenia dwóch milinów leggerów
+
+pozycjonowanie kontekstowe dotyczy elementów zagnieżdżonych; dla ojca dajemy position: relative, dla bachora position: absolute i mamy
+
